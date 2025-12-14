@@ -14,7 +14,7 @@ function enableNotifications() {
   Notification.requestPermission().then(permission => {
     if (permission === "granted") {
       messaging.getToken({
-        vapidKey: "🔥YAHAN_APNI_VAPID_KEY_DALO🔥"
+        vapidKey: "BJQ45sojMBuP8mXasbMFfJuZGv1IR556BvgR1RbuWiFIuk8R-RThoV364BJYhB3jacrH-p5miWvR2GcB2BEL4vg"
       }).then(token => {
         console.log("FCM TOKEN:", token);
 
